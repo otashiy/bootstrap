@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="h2 text-center">Movies Catalog</h1>
+    <div class="row">
+      <div class="col-3">
+        <form action="#">
+          <input class="form-control mb-3" placeholder="Avengers" type="search">
+          <input class="form-control mb-3" placeholder="5" type="number">
+          <select class="form-select mb-3" name="film_genre">
+            <option selected value="0">All</option>
+          </select>
+          <select class="form-select" name="rating_sort">
+            <option selected value="0">Higher to top</option>
+          </select>
+          <button class="btn btn-primary w-100 mt-3">Submit</button>
+        </form>
+
+        <section>
+          <h2 class="h3 mt-4">Bookmarked movies</h2>
+          <ul class="list-group">
+            <li class="list-group-item py-3 px-4">
+              <h3 class="h5">Avengers</h3>
+              <button class="btn btn-danger">Remove</button>
+            </li>
+            <li class="list-group-item py-3 px-4">
+              <h3 class="h5">Avengers</h3>
+              <button class="btn btn-danger">Remove</button>
+            </li>
+            <li class="list-group-item py-3 px-4">
+              <h3 class="h5">Avengers</h3>
+              <button class="btn btn-danger">Remove</button>
+            </li>
+            <li class="list-group-item py-3 px-4">
+              <h3 class="h5">Avengers</h3>
+              <button class="btn btn-danger">Remove</button>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="row col-9">
+        <div class="alert alert-primary" role="alert">
+          A simple primary alert—check it out!
+        </div>
+          <div class="card w-50 p-0  mb-3">
+            <img src="https://picsum.photos/300/300" alt="random">
+            <div class="card-body">
+              <h5 class="card-title">Avengers</h5>
+              <p class="card-text">2018</p>
+              <a href="#" class="btn btn-outline-primary btn-lg">Send</a>
+              <button type="button" class="btn btn-outline-success btn-lg">Send</button>
+              <button type="button" class="btn btn-outline-info btn-lg">Send</button>
+              <div class="spinner-grow text-warning" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+            </div>
+          </div>
+          <div class="card w-50 p-0 mb-3">
+            <img src="https://picsum.photos/300/300" alt="random">
+            <div class="card-body">
+              <h5 class="card-title">Avengers</h5>
+              <p class="card-text">2018</p>
+              <a href="#" class="btn btn-outline-primary btn-lg">Send</a>
+              <button type="button" class="btn btn-outline-success btn-lg">Send</button>
+              <button type="button" class="btn btn-outline-info btn-lg">Send</button>
+              <div class="spinner-grow text-danger" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+            </div>
+          </div>
+          <div class="card p-0 w-50">
+            <img src="https://picsum.photos/300/300" alt="random">
+            <div class="card-body">
+              <h5 class="card-title">Avengers</h5>
+              <p class="card-text">2018</p>
+              <a href="#" class="btn btn-outline-primary btn-lg">Send</a>
+              <button type="button" class="btn btn-outline-success btn-lg">Send</button>
+              <button type="button" class="btn btn-outline-info btn-lg">Send</button>
+              <div class="spinner-grow text-success" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+            </div>
+          </div>
+          <div class="card p-0 w-50">
+            <img src="https://picsum.photos/300/300" alt="random">
+            <div class="card-body">
+              <h5 class="card-title">Avengers</h5>
+              <p class="card-text">2018</p>
+              <a href="#" class="btn btn-outline-primary btn-lg">Send</a>
+              <button type="button" class="btn btn-outline-success btn-lg">Send</button>
+              <button type="button" class="btn btn-outline-info btn-lg">Send</button>
+              <div class="spinner-grow" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
